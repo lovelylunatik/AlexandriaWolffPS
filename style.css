@@ -1,0 +1,117 @@
+@font-face{
+    font-family:"Pixelar Regular W01 Regular";
+    src:url("./Resources/Fonts/MTI-WebFonts-1498447047 2/Fonts/1428314/9c200a14-d264-405c-86bf-d27b840e86be.woff") format("woff");
+}
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    color:#B678D1;
+    text-align: center;
+    vertical-align: middle;
+    background: #F7ED9E;
+    opacity: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Pixelar Regular W01 Regular";
+    margin: auto;
+    
+  }
+ .bigfont {
+     font-size: 55px;
+     text-shadow: 2px 2px white;
+    
+     
+ }
+ .littlefont{
+     font-size: 40px; 
+     text-shadow: 2px 2px white;
+ }
+.glance {
+    font-family: "Pixelar Regular W01 Regular";
+    font-size: 40px;
+    display: flex;
+    color: #F7ED9E;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center; 
+    flex-wrap: wrap;
+    text-shadow: 2px 2px #B678D1;
+}
+.square {
+    height: 500px;
+    width: 400px;
+    background-color: rgba(161, 190, 236, 0.5);
+    margin: auto;
+    padding: 20px;
+}
+.icons {
+ display: flex;
+
+}    
+
+a {
+    text-decoration: none;
+}
+input[type=text], select, textarea {
+    font-family: "Pixelar Regular W01 Regular";
+    font-size: 20px;
+    color: #B678D1;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #F7ED9E;
+    color: #B678D1;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Pixelar Regular W01 Regular";
+    font-size: 25px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #B678D1;
+    color: #F7ED9E;
+    
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color:rgba(248, 197, 237, 0.5);
+    padding: 40px;
+    margin: auto;
+    width: 320px;
+    
+    
+  }
+  label {
+      font-family: "Pixelar Regular W01 Regular";
+      font-size: 20px;
+      color: #F7ED9E;
+  }
+
+  .sayHi {
+    font-family: "Pixelar Regular W01 Regular";
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #F7ED9E;
+    text-shadow: 2px 2px #B678D1;
+  }
+  
